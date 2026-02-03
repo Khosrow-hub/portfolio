@@ -38,7 +38,7 @@ A modern, multi-page portfolio website built with **Tailwind CSS v4** to showcas
 ## Project Structure
 
 ```
-portfolio-tailwind/
+portfolio/
 ├── dist/                          # Production Build (Deployed Files)
 │   ├── index.html                 # Homepage with hero section
 │   ├── about.html                 # About me and skills
@@ -74,8 +74,8 @@ portfolio-tailwind/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/khosrow-hub/portfolio-tailwind.git
-   cd portfolio-tailwind
+   git clone https://github.com/khosrow-hub/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies**
@@ -198,7 +198,7 @@ npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify
 1. Push code to `main` branch
 2. Enable GitHub Pages in repository settings
 3. Set source to `/dist` folder
-4. Site available at: `https://khosrow-hub.github.io/portfolio-tailwind/`
+4. Site available at: `https://khosrow-hub.github.io/portfolio/`
 
 ### **Alternative Hosting**
 
@@ -266,3 +266,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Built with care and attention to detail.** This portfolio represents my journey in web development and commitment to creating quality digital experiences.
+
