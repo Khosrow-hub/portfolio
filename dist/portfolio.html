@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <script defer src="./script.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body class="bg-[#101a20] min-h-screen flex flex-col">
+    <header
+      class="flex flex-col sm:flex-row justify-around items-center bg-[#101a20e8] w-full h-auto sm:h-22 text-white shadow-2xl shadowBottom sticky top-0 fade-in delay-100 px-4 py-3 sm:px-0 sm:py-0"
+    >
+      <nav class="flex flex-row justify-center gap-3 sm:gap-6 flex-wrap">
+        <a
+          href="./index.html"
+          class="hover:text-[#1387c1] relative font-semibold after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-0.5 after:w-1/2 after:bg-[#1387c1ab] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hover:after:translate-x-0 text-sm sm:text-base"
+          >Home</a
+        >
+        <a
+          href="./about.html"
+          class="hover:text-[#1387c1] relative font-semibold after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-0.5 after:w-1/2 after:bg-[#1387c1ab] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hover:after:translate-x-0 text-sm sm:text-base"
+          >About</a
+        >
+        <a
+          href="./resume.html"
+          class="hover:text-[#1387c1] relative font-semibold after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-0.5 after:w-1/2 after:bg-[#1387c1ab] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hover:after:translate-x-0 text-sm sm:text-base"
+          >Resume</a
+        >
+        <a
+          href="#"
+          class="hover:text-[#1387c1] relative font-semibold after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-0.5 after:w-1/2 after:bg-[#1387c1ab] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hover:after:translate-x-0 text-sm sm:text-base"
+          >Portfolio</a
+        >
+        <a
+          href="./contact.html"
+          class="hover:text-[#1387c1] relative font-semibold after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-0.5 after:w-1/2 after:bg-[#1387c1ab] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hover:after:translate-x-0 text-sm sm:text-base"
+          >Contact</a
+        >
+      </nav>
+
+      <nav class="flex flex-row justify-center gap-3 mt-3 sm:mt-0">
+        <a href="https://github.com/Khosrow-hub"
+          ><img
+            src="./img/github.png"
+            alt="github icon"
+            class="w-5 sm:w-6 rounded-full up"
+        /></a>
+        <a href="https://www.instagram.com/_khosrow_samadi_/"
+          ><img
+            src="./img/instagram.png"
+            alt="instagram icon"
+            class="w-5 sm:w-6 rounded-full up"
+        /></a>
+        <a href="https://www.linkedin.com/in/khosrow-samadi-792017284/"
+          ><img
+            src="./img/linkedin.png"
+            alt="linkedin icon"
+            class="w-5 sm:w-6 rounded-full up"
+        /></a>
+        <a href="https://x.com/KhosrowSamadi"
+          ><img
+            src="./img/twitter.png"
+            alt="X icon"
+            class="w-5 sm:w-6 rounded-full up"
+        /></a>
+      </nav>
+    </header>
+    <main
+      class="flex flex-col flex-1 gap-10 sm:gap-15 lg:gap-25 mb-10 sm:mb-20 lg:mb-30 fade-in delay-100 px-4 sm:px-6"
+    >
+      <section
+        class="flex flex-col gap-5 justify-center items-center mt-8 sm:mt-10"
+      >
+        <h1
+          class="text-white text-3xl sm:text-4xl lg:text-5xl font-bold text-center"
+        >
+          Portfolio
+        </h1>
+        <p class="text-gray-400 text-center text-sm sm:text-base max-w-2xl">
+          Browse functional projects with direct links to test features and
+          examine the code behind each implementation.
+        </p>
+      </section>
+
+      <section
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8 justify-center items-start max-w-6xl mx-auto mt-8 sm:mt-10 px-2"
+      >
+        <article
+          class="flex flex-col gap-4 border bg-[#142129] border-[#14212953] p-5 sm:p-6 rounded-lg hover:shadow-2xl shadow-[#142129]-50 transition-shadow duration-300 group up"
+        >
+          <div class="relative overflow-hidden rounded-xl">
+            <a href="#" class="block">
+              <img
+                src="./img/screenshot_1.PNG"
+                alt="QR code preview"
+                class="w-full h-40 sm:h-48 object-cover rounded-xl transition-all duration-500 group-hover:scale-105 group-hover:blur-sm group-hover:brightness-90"
+              />
+            </a>
+
+            <div
+              class="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <a
+                href="#"
+                class="bg-[#1387c1] hover:bg-[#1387c1] text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-lg shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-500 hover:scale-105 z-10 text-sm sm:text-base"
+              >
+                Go to Link
+              </a>
+            </div>
+          </div>
+
+          <h2 class="text-white text-lg sm:text-xl font-semibold mt-2">
+            QR Code Generator
+          </h2>
+          <p class="text-gray-300 text-sm sm:text-base">
+            Create custom QR codes for links, text, or contact info in seconds
+          </p>
+        </article>
+
+        <article
+          class="flex flex-col gap-4 border bg-[#142129] border-[#14212953] p-5 sm:p-6 rounded-lg hover:shadow-2xl shadow-[#142129]-50 transition-shadow duration-300 group up"
+        >
+          <div class="relative overflow-hidden rounded-xl">
+            <a href="#" class="block">
+              <img
+                src="./img/screenshotpass.PNG"
+                alt="password Generator preview"
+                class="w-full h-40 sm:h-48 object-cover rounded-xl transition-all duration-500 group-hover:scale-105 group-hover:blur-sm group-hover:brightness-90"
+              />
+            </a>
+
+            <div
+              class="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <a
+                href="#"
+                class="bg-[#1387c1] hover:bg-[#1387c1] text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-lg shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-500 hover:scale-105 z-10 text-sm sm:text-base"
+              >
+                Go to Link
+              </a>
+            </div>
+          </div>
+
+          <h2 class="text-white text-lg sm:text-xl font-semibold mt-2">
+            Random Password Generator
+          </h2>
+          <p class="text-gray-300 text-sm sm:text-base">
+            Generate secure, customizable passwords with one click for better
+            safety
+          </p>
+        </article>
+
+        <article
+          class="flex flex-col gap-4 border bg-[#142129] border-[#14212953] p-5 sm:p-6 rounded-lg hover:shadow-2xl shadow-[#142129]-50 transition-shadow duration-300 group up"
+        >
+          <div class="relative overflow-hidden rounded-xl">
+            <a href="#" class="block">
+              <img
+                src="./img/screenshot_app.PNG"
+                alt="To-Do List Preview"
+                class="w-full h-40 sm:h-48 object-cover rounded-xl transition-all duration-500 group-hover:scale-105 group-hover:blur-sm group-hover:brightness-90"
+              />
+            </a>
+
+            <div
+              class="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <a
+                href="#"
+                class="bg-[#1387c1] hover:bg-[#1387c1] text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-lg shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-500 hover:scale-105 z-10 text-sm sm:text-base"
+              >
+                Go to Link
+              </a>
+            </div>
+          </div>
+
+          <h2 class="text-white text-lg sm:text-xl font-semibold mt-2">
+            To-Do List
+          </h2>
+          <p class="text-gray-300 text-sm sm:text-base">
+            Organize daily tasks with a simple, intuitive interface for
+            productivity.
+          </p>
+        </article>
+
+        <article
+          class="flex flex-col gap-4 border bg-[#142129] border-[#14212953] p-5 sm:p-6 rounded-lg hover:shadow-2xl shadow-[#142129]-50 transition-shadow duration-300 group up"
+        >
+          <div class="relative overflow-hidden rounded-xl">
+            <a href="#" class="block">
+              <img
+                src="./img/ScreenShot.PNG"
+                alt="Calculator preview"
+                class="w-full h-40 sm:h-48 object-cover rounded-xl transition-all duration-500 group-hover:scale-105 group-hover:blur-sm group-hover:brightness-90"
+              />
+            </a>
+
+            <div
+              class="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <a
+                href="#"
+                class="bg-[#1387c1] hover:bg-[#1387c1] text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-lg shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all duration-500 hover:scale-105 z-10 text-sm sm:text-base"
+              >
+                Go to Link
+              </a>
+            </div>
+          </div>
+
+          <h2 class="text-white text-lg sm:text-xl font-semibold mt-2">
+            Calculator
+          </h2>
+          <p class="text-gray-300 text-sm sm:text-base">
+            Perform basic to advanced calculations with a clean, responsive
+            design
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer
+      class="w-full h-auto flex-col justify-center items-center shadow-2xl shadow-sky-700 fade-in delay-100 px-4 py-5"
+    >
+      <section class="flex justify-center">
+        <p class="text-white text-xs sm:text-sm p-3 sm:p-5 text-center">
+          &copy; Copyright
+          <span class="self-center font-bold">Khosrow-hub</span> All Rights
+          Reserved
+        </p>
+      </section>
+
+      <section class="flex flex-row justify-center gap-3 w-full">
+        <a href="https://github.com/Khosrow-hub"
+          ><img
+            src="./img/github.png"
+            alt="github icon"
+            class="w-5 sm:w-6 rounded-full up"
+        /></a>
+        <a href="https://www.instagram.com/_khosrow_samadi_/"
+          ><img
+            src="./img/instagram.png"
+            alt="instagram icon"
+            class="w-5 sm:w-6 rounded-full up"
+        /></a>
+        <a href="https://www.linkedin.com/in/khosrow-samadi-792017284/"
+          ><img
+            src="./img/linkedin.png"
+            alt="linkedin icon"
+            class="w-5 sm:w-6 rounded-full up"
+        /></a>
+        <a href="https://x.com/KhosrowSamadi"
+          ><img
+            src="./img/twitter.png"
+            alt="X icon"
+            class="w-5 sm:w-6 rounded-full up"
+        /></a>
+      </section>
+      <section>
+        <p class="text-xs sm:text-sm text-white text-center m-2">
+          Designed by
+          <span class="text-[#1387c1] font-bold"><a href="">NXrow</a></span>
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
